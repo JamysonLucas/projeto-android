@@ -1,0 +1,102 @@
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main h1 {
+    color: var(--cor4);
+    font-family: var(--fonte-android);
+    padding: 20px 0px 0px 10px;
+}
+
+main h2 {
+    font-family: var(--fonte-android);
+    padding: 0px 0px 0px 10px;
+    color: var(--cor4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 3px;
+}
+
+main h3 {
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    color: white;
+    background-color: var(--cor4);
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+main p {
+    margin: 10px 0px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+main a {
+    color: var(--cor4);
+    background-color: var(--cor1);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 5px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+div.video {
+   background-color: var(--cor4); 
+   margin: 0px -10px 20px -10px;
+   padding: 20px;
+   padding-bottom: 56%;
+   position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+main aside {
+    background-color: var(--cor1);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.301);
+}
+
+aside p {
+    padding: 0px 15px 10px 15px;
+}
+
+aside ul {
+    list-style-type: "\2714\00a0";
+    list-style-position: inside;
+    columns: 2;
+    padding-left: 15px;
+}
